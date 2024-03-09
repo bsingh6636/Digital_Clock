@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Crimson+Text:wght@600&family=Happy+Monkey&family=Madimi+One&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&display=swap');
+body{
+    background-color: #ABB2B9;
+}
+
+.digital_clock{
+    background-color: #0B0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    font-size:90px;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-color: white;
+    border-radius: 40px;
+    border-bottom-style: dotted;
+    border: 20px solid white; 
+    border-style: double;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+   
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-size:60px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+      
+      
+}
