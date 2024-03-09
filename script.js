@@ -5,8 +5,8 @@ let sec =document.getElementsByClassName("sec")[0];
 
 let updateTime =()=>{
     let currentTime =new Date();
-    hh.innerHTML =currentTime.getHours() + '\t\t:';
-    mm.innerHTML =currentTime.getMinutes() + '\t\t:';
+    hh.innerHTML =currentTime.getHours() + '\t:';
+    mm.innerHTML =currentTime.getMinutes() + '\t:';
     sec.innerHTML =currentTime.getSeconds();
     // sec.innerHTML =sec.innerHTML+currentTime;
 }
